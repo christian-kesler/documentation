@@ -37,3 +37,9 @@ Go into Disks app, find media disk, unmount, try again
 ## Reinstall Ubuntu Settings App
 
         sudo apt install gnome-control-center
+        
+
+## Podman install and setup
+
+        sudo apt install podman
+        alias docker=podman
