@@ -24,3 +24,11 @@ Inside VIM, bottom of file
 
         PATH=$PATH:$HOME/programs/node/bin
         
+
+## WoeUSB Create Windows Bootable USB
+
+        sudo ./woeusb-5.2.4.bash --device ./Win10_21H2_English_x64.iso /dev/sdb
+        
+Likely Error - Target media device is budy
+
+Go into Disks app, find media disk, unmount, try again
