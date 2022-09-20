@@ -32,3 +32,8 @@ Inside VIM, bottom of file
 Likely Error - Target media device is budy
 
 Go into Disks app, find media disk, unmount, try again
+
+
+## Reinstall Ubuntu Settings App
+
+        sudo apt install gnome-control-center
