@@ -43,3 +43,7 @@ Go into Disks app, find media disk, unmount, try again
 
         sudo apt install podman
         alias docker=podman
+
+## Podman container IP inspection
+
+        podman inspect <id-or-name> |grep IPAddress
