@@ -24,8 +24,13 @@ Inside VIM, bottom of file
 
         PATH=$PATH:$HOME/programs/node/bin
         
+## WoeUSB Installation (Ubuntu 22.04 | With GUI)
 
-## WoeUSB Create Windows Bootable USB
+    sudo add-apt-repository ppa:tomtomtom/woeusb -y
+    sudo apt update
+    sudo apt install woeusb woeusb-frontend-wxgtk -y
+
+## WoeUSB Create Windows Bootable USB (Terminal)
 
         sudo ./woeusb-5.2.4.bash --device ./Win10_21H2_English_x64.iso /dev/sdb
         
