@@ -25,6 +25,7 @@ Inside VIM, bottom of file
         PATH=$PATH:$HOME/programs/node/bin
         
 ## WoeUSB Installation (Ubuntu 22.04 | With GUI)
+https://www.youtube.com/watch?v=jGeRysEDgGE
 
     sudo add-apt-repository ppa:tomtomtom/woeusb -y
     sudo apt update
