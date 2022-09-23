@@ -53,3 +53,7 @@ Go into Disks app, find media disk, unmount, try again
 ## Podman container IP inspection
 
         podman inspect <id-or-name> |grep IPAddress
+
+## Bootable Windows USB on Linux
+
+https://itsfoss.com/bootable-windows-usb-linux/
